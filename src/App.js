@@ -20,7 +20,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h2>Ways of Memeing</h2>
+        <h2>WAYS OF MEMEING</h2>
         { possibleGenes.map(gene => (<button key={gene} onClick={this.generate.bind(this, gene)}>{gene}</button>)) }
         <br/><br/><br/><br/>
         { this.state.meme }
