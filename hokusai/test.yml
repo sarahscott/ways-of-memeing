@@ -1,0 +1,10 @@
+---
+version: '2'
+services:
+  ways-of-memeing:
+    command: yarn test
+    environment:
+    - NODE_ENV=test
+    extends:
+      file: common.yml
+      service: ways-of-memeing

@@ -1,0 +1,11 @@
+---
+version: '2'
+services:
+  ways-of-memeing:
+    environment:
+    - NODE_ENV=development
+    extends:
+      file: common.yml
+      service: ways-of-memeing
+    ports:
+    - 8080:80

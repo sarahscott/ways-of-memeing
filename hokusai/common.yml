@@ -1,0 +1,6 @@
+---
+version: '2'
+services:
+  ways-of-memeing:
+    build:
+      context: ../
