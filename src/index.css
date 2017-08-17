@@ -1,11 +1,15 @@
 html, body {
   background-color: #E2D2FF;
-  font-family: 'Adobe Garamond W08',adobe-garamond-pro,AGaramondPro-Regular,'Times New Roman',Times,serif;
+  font-family: Menlo,Monaco,'Andale Mono','Lucida Console','Courier New',monospace;
   color: #666666;
 }
 
 h2 {
   font-size: 72px;
+}
+
+div.Meme {
+  font-size: 32px;
 }
 
 button {
@@ -38,7 +42,7 @@ button {
   box-sizing: border-box;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-family: 'ITC Avant Garde Gothic W04', 'AvantGardeGothicITCW01D 731075', 'AvantGardeGothicITCW01Dm', 'Helvetica', 'sans-serif';
+  font-family: Menlo,Monaco,'Andale Mono','Lucida Console','Courier New',monospace;
   -webkit-font-smoothing: antialiased;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
