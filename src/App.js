@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   render() {
-    const possibleGenes = ["animals", "gender", "unsettling-1", "humor", "medical-slash-health", "mysticism-and-the-occult", "mutated-bodies"]
+    const possibleGenes = ["animals", "gender", "unsettling-1", "humor", "medical-slash-health", "mysticism-and-the-occult", "mutated-bodies", "dada", "body-art", "disaster"]
 
     return (
       <div className="App">
