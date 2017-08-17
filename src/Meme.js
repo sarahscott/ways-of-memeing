@@ -9,8 +9,6 @@ import environment from './createRelayEnvironment';
 
 class Meme extends Component {
   render() {
-    const geneID = "geometric"
-
     return (
       <div className="Meme">
         <QueryRenderer
@@ -35,7 +33,7 @@ class Meme extends Component {
               }
           `
           }
-          variables={{geneID: geneID}}
+          variables={{ geneID: this.props.geneID }}
           render={({error, props}) => {
             if (error) {
               return <div>{error.message}</div>;
