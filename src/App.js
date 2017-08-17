@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-
+import React, { Component } from 'react'
 import Meme from './Meme'
+
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   render() {
-    const possibleGenes = ["website", "animals", "gender"]
+    const possibleGenes = ["animals", "gender", "unsettling-1", "humor", "medical-slash-health"]
 
     return (
       <div className="App">
