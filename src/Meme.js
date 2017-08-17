@@ -16,6 +16,27 @@ const captions = [
   "fly wheel fly",
   "Have you checked Atlas?",
   "tfw you forget to check the swag playbook",
+  "Is there a Looker for that?",
+  "Fly wheel flying high",
+  "We're Crushing It",
+  "#help",
+  "@here",
+  "tfw Zoom isn't working",
+  "With regard to the issue of content, the iconicity of the purity of line brings within the realm of discourse the larger carcass. ",
+  "It's difficult to enter into this work because of how the metaphorical resonance of the sexy fish verges on codifying the accessibility of the work. ",
+  "I'm troubled by how the mechanical mark-making of the spatial relationships spatially undermines the inherent overspecificity. ",
+  "I find this work menacing/playful because of the way the iconicity of the figurative-narrative line-space matrix endangers the devious simplicity of the remarkable handling of ljght. ",
+  "I'm surprised that no one's mentioned yet that the aura of the gesture notates the substructure of critical thinking. ",
+  "It's in my genomes",
+  "Let's implement scalable action-items",
+  "delivering scalable web-readiness",
+  "target strategic channels",
+  "ANything from https://www.makebullshit.com/",
+  "it is all about connecting",
+  "big shoutout",
+  "coffee ?!",
+  "Never a good time for performance reviews",
+  "tfw you're waiting for the elevators"
 ]
 
 class Meme extends Component {
