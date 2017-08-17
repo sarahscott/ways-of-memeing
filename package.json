@@ -56,7 +56,7 @@
     "test": "node scripts/test.js --env=jsdom",
     "relay": "relay-compiler --src ./src --schema data/schema.graphql",
     "get-schema": "node scripts/getSchema.js",
-    "sync-schema": "cd metaphysics && git fetch && git checkout origin/master && yarn install && npm run dump-schema -- ../data && rm -rf node_modules"    
+    "sync-schema": "cd metaphysics && git fetch && git checkout origin/master && yarn install && npm run dump-schema -- ../data && rm -rf node_modules"
   },
   "jest": {
     "collectCoverageFrom": [
