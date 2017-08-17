@@ -2,6 +2,7 @@ html, body {
   background-color: #E2D2FF;
   font-family: Menlo,Monaco,'Andale Mono','Lucida Console','Courier New',monospace;
   color: #666666;
+  margin-left: 50px;
 }
 
 h2 {
@@ -10,12 +11,13 @@ h2 {
 
 div.Meme {
   font-size: 32px;
+  width: 700px;
 }
 
 button {
   background: #6E1FFF;
+  color: white;
   cursor: pointer;
-  color: black;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
